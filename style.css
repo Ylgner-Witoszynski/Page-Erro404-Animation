@@ -113,3 +113,41 @@ main{
     transform: translateY(-3px);
     box-shadow: 0 10px 25px rgba(142, 45, 226, 0.4);
 }
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header nav ul {
+        gap: 15px;
+        font-size: 13px;
+    }
+
+    .txtErro {
+        width: 100%;
+    }
+
+    .conteudo {
+        bottom: 40px;
+        width: 90%;
+    }
+
+    .conteudo h1 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteudo p {
+        font-size: 12px;
+    }
+}
+
+@media (max-height: 500px) {
+    header {
+        display: none;
+    }
+}
