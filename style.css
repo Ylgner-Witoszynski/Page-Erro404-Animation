@@ -19,6 +19,16 @@ header {
     z-index: 10;
 }
 
+header h2 {
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+header h2:hover {
+    transform: scale(1.05);
+    color: #8e2de2;
+}
+
 header nav ul {
     display: flex;
     list-style: none;
@@ -27,6 +37,12 @@ header nav ul {
 
 header nav ul li {
     cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+header nav ul li:hover {
+    color: #8e2de2;
+    transform: scale(1.1);
 }
 
 main{
@@ -110,7 +126,7 @@ main{
 }
 
 .conteudo button:hover{
-    transform: translateY(-3px);
+    transform: translateY(-3px) scale(1.05);
     box-shadow: 0 10px 25px rgba(142, 45, 226, 0.4);
 }
 
