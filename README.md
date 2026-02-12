@@ -67,13 +67,13 @@ O projeto apresenta um **personagem monstrinho roxo** como elemento central, com
 1️⃣ Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/site-monstrinho.git
+git clone https://github.com/seu-usuario/Page-Erro404-Animation.git
 ```
 
 2️⃣ Acesse a pasta do projeto:
 
 ```bash
-cd site-monstrinho
+cd Page-Erro404-Animation
 ```
 
 3️⃣ Abra o arquivo `index.html` no navegador.
